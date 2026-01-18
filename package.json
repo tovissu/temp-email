@@ -1,0 +1,28 @@
+
+{
+  "name": "aikyam-mail",
+  "version": "1.0.0",
+  "description": "Production-ready Temp Email Server",
+  "main": "backend.ts",
+  "type": "module",
+  "scripts": {
+    "start": "node --loader ts-node/esm backend.ts",
+    "serve": "sudo pm2 start backend.ts --interpreter npx --interpreter-args 'tsx'"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "smtp-server": "^3.13.5",
+    "mailparser": "^3.6.5",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3",
+    "@types/express": "^4.17.21",
+    "@types/cors": "^2.8.17",
+    "@types/smtp-server": "^3.5.10",
+    "@types/mailparser": "^3.4.4",
+    "@types/node": "^20.11.20"
+  }
+}

@@ -1,0 +1,9 @@
+
+{
+  "name": "Aikyam Mail - Temp Email & OTP Testing Platform",
+  "description": "A self-hosted alternative to Mailosaur for testing email registrations and OTP flows. Features real-time inbox management, API-driven email generation, and AI-powered OTP extraction.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
